@@ -252,6 +252,7 @@ body{
 
 .description
 {
+	margin-top: 40px;
 	font-size: 20;
 }
 
@@ -510,13 +511,13 @@ form select.error{
 	margin:10px 0;
 	border:1px solid #928F6E;
 	color: Black;
-	background:none;
+	background-color: White;
 }
 .form form input[type=text]:focus,
 form input[type=password]:focus,
 form textarea:focus,
 form select:focus{
-	background:none;
+	background-color: White;
 	outline:none;
 }
 .content form input[type=submit]{
@@ -562,3 +563,49 @@ select.error{
 	position: relative;
 	top: 10px;
 } 
+
+/*Typing animation*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.type    {
+}
+
+.element	{
+	font-size: 30px;
+	color: Black;
+}
+
+.nyan	{
+	height: 35px;
+	width: 60px;
+	position: relative;
+	left: 350px;
+}
+
+.doge	{
+	height: 40px;
+	width: 40px;
+	position: relative;
+	top: -10px;
+	left: -10px;
+}

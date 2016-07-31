@@ -12,9 +12,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link rel = 'stylesheet' href = "http://fonts.googleapis.com/css?family=Ubuntu">
 </head>
 <body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/typed.js"></script>
+<script>
+  $(function(){
+      $(".element").typed({
+        strings: ["Vishal Khanna", 
+                "Engineering Student",
+                "Python Aficionado",
+                "Social Media Enthusiast",
+                "Gamer",
+                "Anime Watcher",
+                "Mouse Potato."],
+        typeSpeed: 0,
+        startDelay: 2000, 
+        backDelay: 2000,
+        showCursor: true,
+        cursorChar: "|"
+      });
+  });
+</script>
+
 <div class="header">
     <div class="wrap">
             <div class="logo"><a href = "index.html">Sanity's Eclipse</a></div>
+            <img src = 'images/nyan.gif' class = 'nyan'>
         <div class="clear"></div>
 <!--         Original colors- #928f6e, #c52525, #ffffeb
  -->    </div>
@@ -30,6 +52,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="clear"></div>
     </div>
         <div class="content">
+            <div class = 'type'>
+            <span class = "element"></span>
+            </div>
             <div class = "description">
                 <h1><b>Hello there!</b></h1>
                 Looks like you've stumbled upon my homepage.<br><br>
@@ -43,9 +68,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="recent">
                 <h1>Find Me</h1>
                 <ul style = "list-style-type: none;">
-                    <li><a href="#"><img src = 'images/fbfavicon.png'></a></li>
+                    <li><a href="https://www.facebook.com/vishaldotkhanna"><img src = 'images/fbfavicon.png'></a></li>
                     <li><a href="#"><img src = 'images/twitterfavicon.png'></a></li>
-                    <li><a href="#"><img src = 'images/githubfavicon.ico'></a></li>
+                    <li><a href="https://github.com/vishaldotkhanna/"><img src = 'images/githubfavicon.ico'></a></li>
                     <li><a href="#"><img src = 'images/linkedinfavicon.png'></a></li>
                 </ul>
             </div>
@@ -56,6 +81,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
      <div class="clear"></div>
    </div>
 <div class="f-menu">
+    <img src = 'images/doge.jpeg' class = 'doge'>
         <div class="clear"></div>
     <div class="copy">© 2012 All rights reserved. Designed by <a href="http://w3layouts.com">W3Layouts</a> Powered by <a href="http://bigw3.com">Bigw3</a></div>
 </div>
