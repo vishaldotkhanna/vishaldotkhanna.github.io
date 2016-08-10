@@ -1,0 +1,115 @@
+html	{
+	height: 100%;
+	color: #333333;
+
+}
+
+body	{
+	font-family: Ubuntu;
+	background: linear-gradient(to right, #FFB75E, #ED8F03);
+	height: 100%;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+h1	{
+	font-size: 50px;
+}
+
+h2	{
+	font-size: 30px;
+}
+
+.wrapper	{
+	width: 50%;
+	margin: 0px auto;
+	padding: 5%;
+	
+}
+
+.main    {
+	width: 70%;
+	margin: 10% 15% 0% 15%;
+	text-align: center;
+	padding: 1%;
+	font-size: 20px;
+	word-spacing: 5px;
+	line-height: 27px;	
+}
+
+.element	{
+	font-size: 30px;
+	padding: 10px;
+	height: 150px;
+}
+
+.rule	{
+	border-bottom: 5px solid #333333;
+	width: 120%;
+	margin-left: -8%;
+}
+
+ul	{
+	list-style-type: none;
+}
+
+ul li    {
+	display: inline;
+}
+
+.links li img	{
+	height: 40px;
+	width: 35px;
+	padding: 5px;
+	margin: 5px;
+	opacity: 0.9;
+}
+
+.links li img:hover	{
+	opacity: 0.6;
+}
+
+.doge	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.me    {
+	border-radius: 50%;
+	height: 140px;
+	width: 140px;
+	margin-top: -25%;
+	margin-bottom: 5%;
+}
+
+/*CSS for animated cursor*/
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
